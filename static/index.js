@@ -465,11 +465,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 50) return '我黄屑彤瞧不起你';
+        if (cps <= 80) return '有点意思';
+        if (cps <= 130)  return '没我强';
+        if (cps <= 199) return '很棒';
+        return '这就走了？';
     }
 
     function toStr(obj) {
